@@ -1,0 +1,23 @@
+[[AC in Space]]
+16:9
+1) Load
+2) New
+3) Quick Play One Player
+4) Quick Play Two Players
+5) Options
+6) Exit
+Ships are modular. All parts use power except for generators. All parts have mass. Thrusters give speed. Speed is reduced by mass.
+All parts have mass, power usage, durability, 
+1) Cockpit
+a) Computer
+i) Radar
+ii) Slots
+(1) Jammers
+(2) Lock Picks
+(3) Targeting
+b) Life Support
+2) Body
+a) Defense (reduce weapon locks)
+3) Generator
+a) Produces power
+4) Engines

@@ -1,0 +1,54 @@
+
+Hologram Colors:
+	Click:
+		Border:
+			Color:		9b9bff
+			Opacity:	100
+		Body:
+			Color:		
+			Opacity:	80
+		Light:
+			Color:
+			Opacity:	100
+		Text:
+			Color:
+			Font:		100
+	HighLight:
+		Border:
+			Color:
+			Opacity:	80
+		Body:
+			Color:
+			Opacity:	60
+		Light:
+			Color:
+			Opacity:	100
+		Text:
+			Color:
+			Opacity:
+	StandBy:
+		Border:
+			Color:		8888ff
+			Opacity:	70%
+		Body:
+			Color:		
+			Opacity:
+		Light:
+			Color:
+			Opacity:
+		Text:
+			Color:		
+			Opacity:
+	Disabled:
+		Border:
+			Color:
+			Opacity:
+		Body:
+			Color:
+			Opacity:
+		Light:
+			Color:
+			Opacity:
+		Text:
+			Color:
+			Opacity:	
