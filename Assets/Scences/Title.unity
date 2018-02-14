@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 916024753}
   - component: {fileID: 916024752}
   m_Layer: 5
-  m_Name: Image
+  m_Name: FG_Blackout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,32 +617,32 @@ Prefab:
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: -150
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: -150
+      value: 326
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 224952861870334996, guid: c37d381ea65869d429da3ff5864684c8,
         type: 2}

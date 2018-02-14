@@ -1,0 +1,4 @@
+Credits
+
+litjson - https://github.com/LitJSON/litjson  devlead, Mattias Karlsson.
+

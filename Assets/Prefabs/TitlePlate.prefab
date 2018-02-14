@@ -145,7 +145,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Unofficial Heroes
+  m_Text: The Unofficial Heroes
 --- !u!114 &114198620436206268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -302,10 +302,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -150, y: -150}
+  m_SizeDelta: {x: 700, y: 326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224969852923776898
 RectTransform:
