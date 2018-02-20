@@ -9,7 +9,6 @@ public class ReadJSON : MonoBehaviour
     private string JSONstring;
     private JsonData testing;
 
-	// Use this for initialization
 	void Start ()
     {
         JSONstring = File.ReadAllText(Application.dataPath + "/Jsons/Change.json");
@@ -17,8 +16,5 @@ public class ReadJSON : MonoBehaviour
 
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	
 }

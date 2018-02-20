@@ -2,3 +2,7 @@ Credits
 
 litjson - https://github.com/LitJSON/litjson  devlead, Mattias Karlsson.
 
+Fonts:
+Scratched Letters - JLH Fonts, http://jlhfonts.blogspot.com/ 
+Code New Roman - Tryle, www.dafont.com/code-new-roman.font?sort=alpha&l[]=10
+Squib - Heydon Pickering, http://www.heydonworks.com/

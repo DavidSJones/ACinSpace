@@ -17,6 +17,8 @@ public class SceneDirector : MonoBehaviour
 
     public void LoadScene(float scene)
     {
-        if (scene == 0) { SceneManager.LoadScene("Title"); }
+        if (scene == 00.00f) { SceneManager.LoadScene("Title"); }
+        if (scene == 01.00f) { SceneManager.LoadScene("JoystickCheck"); }
+        if (scene == 01.10f) { SceneManager.LoadScene("MainMenu"); }
     }
 }

@@ -136,7 +136,7 @@ public class InputManager : MonoBehaviour
     {
         if (joystickCount < 2)
         {
-            joystickTwo = 1; Debug.Log("less than two");
+            joystickTwo = 1; 
         }
         else if (joystickCount >= 2)
         {
@@ -195,7 +195,7 @@ public class InputManager : MonoBehaviour
         }
         else if (joystickOne == 2)
         {
-            js1_leftThumbX = Input.GetAxis("Axis01_1"); Debug.Log(js1_leftThumbX);
+            js1_leftThumbX = Input.GetAxis("Axis01_1");
             js1_leftThumbY = Input.GetAxis("Axis02_1");
             js1_riteThumbX = Input.GetAxis("Axis04_1");
             js1_riteThumbY = Input.GetAxis("Axis05_1");

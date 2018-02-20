@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Scences/Title.unity
     guid: bf6b03b46bd23b44cb0170564df197ef
   - enabled: 1
+    path: Assets/Scences/JoystickCheck.unity
+    guid: 2fda587096a1c0144a6eb037fbd0d40c
+  - enabled: 1
     path: Assets/Scences/MainMenu.unity
     guid: 0a483d54caac42048894c62710b9e3b4
