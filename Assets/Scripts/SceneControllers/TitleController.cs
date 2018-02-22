@@ -13,7 +13,11 @@ public class TitleController : MonoBehaviour
     private IEnumerator Start()
     {
         player = false;
-        profile = false;
+
+        int last = PlayerPrefs.GetInt("lastProfile", 0);
+        if (last == 0) { profile = false; }
+        else { profile = true; }
+
         yield return new WaitForSecondsRealtime(15);
         TransOut();
     }
@@ -33,19 +37,19 @@ public class TitleController : MonoBehaviour
         player = true;
         anim.Play("TitleInterupt");
     }
-    public void LoadNextScene()
+    private void LoadNextScene()
     {
         if (!player)
         {
-            SceneDirector.director.LoadScene(01.00f);
+            GameManager.manager.ChangeScene(01.00f);
         }
         if (player)
         {
             if (profile)
             {
-                SceneDirector.director.LoadScene(01.10f);
+                GameManager.manager.ChangeScene(01.10f);
             }
-            else { SceneDirector.director.LoadScene(01.00f); }
+            else { GameManager.manager.ChangeScene(01.00f); }
         }
 
     }

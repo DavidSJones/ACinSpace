@@ -7,15 +7,41 @@ public class GameManager : MonoBehaviour
 {
     /*singleton*/ public static GameManager manager;
 
-    //EVENTS AND DELEGATES
-   
+    private int profileLastLoaded;
+    private int profileRemaining;
 
-    //Scene Managment Section
-    public static void ChangeScene (int num)
+    private float currentScene;
+    private float lastScene;
+
+    private void Awake()
     {
-        if          (num == 00) { SceneManager.LoadScene("Title"); }
-        else if     (num == 01) { SceneManager.LoadScene("MainMenu"); }
+        if (manager == null) { manager = this; }
+        else { Destroy(gameObject); }
+
+        DontDestroyOnLoad(gameObject);
     }
+
+    private void Start()
+    {
+        //Scene Tracking
+        lastScene = 0;
+        currentScene = 0;
+        
+    }
+
+    private void Update()
+    {
+        Debug.Log(lastScene + "/" + currentScene);
+    }
+
+    public void ChangeScene(float num)
+    {
+        lastScene = currentScene;
+        currentScene = num;
+        SceneDirector.director.LoadScene(num);
+    }
+
+
     //Error Code List
     public static void ErrorDetected(int code)
     {
