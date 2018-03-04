@@ -1,4 +1,4 @@
-
+**TO ACCESS LITJSON add the src folder from the LitJason folder to Assets.
 Hologram Colors:
 	Click:
 		Border:
